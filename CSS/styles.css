@@ -232,12 +232,14 @@ Menu
 .menu-item {
   display: grid;
   gap: 1rem 2rem;
-  max-width: 25rem;
+  width: 90vw;
+  /* max-width: 25rem; */
+  overflow-x: hidden;
 }
 .photo {
   object-fit: cover;
   height: 200px;
-  border: 0.25rem solid var(--clr-gold);
+  /* border: 0.25rem solid var(--clr-gold); */
   border-radius: var(--radius);
   transition: var(--transition);
 }
